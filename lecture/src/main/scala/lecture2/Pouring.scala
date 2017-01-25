@@ -44,4 +44,3 @@ class Pouring(capacity: Vector[Int]) {
   }
 }
 
-

@@ -10,3 +10,4 @@ new Pouring(Vector(2,5))
 
 Vector(2,5).mkString
 Vector(2,5).mkString(" - ")
+"cat"
