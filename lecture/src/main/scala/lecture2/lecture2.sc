@@ -13,3 +13,16 @@ val p = new Pouring(Vector(2,5))
 Vector(2,5).mkString
 Vector(2,5).mkString(" - ")
 "cat"
+
+"""ooo-------
+  |oSoooo----
+  |ooooooooo-
+  |-ooooooooo
+  |-----ooToo
+  |------ooo-""".stripMargin
+"""ooo-------
+  |oSoooo----
+  |ooooooooo-
+  |-ooooooooo
+  |-----ooToo
+  |------ooo-"""
