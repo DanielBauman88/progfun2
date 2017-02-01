@@ -67,4 +67,11 @@ abstract class QuickCheckHeap extends Properties("Heap") with IntHeap {
     val heap = insert(a2, insert(a1, empty))
     findMin(heap) == a1 & findMin(deleteMin(heap)) == a2
   }
+
+  property("simpledoubleinsert") = {
+    val a = insert(1, empty)
+    val b = insert(2, a)
+    val c = insert(3, b)
+    findMin(deleteMin((c))) == 2
+  }
 }
